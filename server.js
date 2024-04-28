@@ -15,6 +15,7 @@ app.use(express.static(path.join(__dirname, './client/build')))
 
 const PORT = process.env.PORT || 8000;
 
+// static file access
 app.get('*', (req,res)=>{
     res.sendFile(path.join(__dirname, './client/build/index.html'))
 })
