@@ -1,30 +1,33 @@
-const express = require('express');
-const cors = require('cors');
-const dotenv = require('dotenv');
-const router = require('./routes/portfolio.route');
-const path = require('path')
+const express = require("express");
+const cors = require("cors");
+const dotenv = require("dotenv");
+const path = require("path");
 
-const app = express();
+const router = require('./routes/portfolio.route');
+//dotenv configuartion
 dotenv.config();
 
-app.use(cors())
-app.use(express.json())
+//rest object
+const app = express();
 
-// static file access
-app.use(express.static(path.join(__dirname, './client/build')))
+//midlewares
+app.use(cors());
+app.use(express.json());
 
-const PORT = process.env.PORT || 8000;
-
-// static file access
-app.get('*', (req,res)=>{
-    res.sendFile(path.join(__dirname, './client/build/index.html'))
-})
-
-app.get('/', (req,res)=>{
-    res.send('app is working successfully...')
-});
+// static files access
+app.use(express.static(path.join(__dirname, "./client/build")));
 
 app.use('/api/v1/portfolio', router)
-app.listen(PORT, ()=>{
-    console.log(`App is listening on PORT ${PORT}`);
-})
+
+// static file access
+app.get("*", function (req, res) {
+    res.sendFile(path.join(__dirname, "./client/build/index.html"));
+  });
+  
+  //port
+  const PORT = process.env.PORT || 8080;
+  
+  //listen
+  app.listen(PORT, () => {
+    console.log(`Server Runnning On PORT ${PORT} `);
+  });
