@@ -39,7 +39,7 @@ const MobileNav = () => {
                     onClick={handleOpen}
                 />
             )}
-            <span className='mobile-nav-title'>My Portfolio App</span>
+            <span className='mobile-nav-title'>Animesh Dev Portfolio</span>
         </div>
         {isOpen && (
             <div className='mobile-nav-menu'>
