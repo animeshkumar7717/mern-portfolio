@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/static/css/main.b66bb00a.css",
+    "main.js": "/static/js/main.57e4c766.js",
+    "static/js/453.d855a71b.chunk.js": "/static/js/453.d855a71b.chunk.js",
+    "static/media/canECommerce.png": "/static/media/canECommerce.cfa5dd7e3f9e617ba7a8.png",
+    "static/media/canPics2.png": "/static/media/canPics2.05b02b8dffe5e6ff5097.png",
+    "static/media/canMovie.png": "/static/media/canMovie.5fb0b361c34c5a3dd00e.png",
+    "static/media/canBook.png": "/static/media/canBook.6c340042bfa910a8eb82.png",
+    "static/media/resume.pdf": "/static/media/resume.f72644cf9ebb534e2231.pdf",
+    "static/media/connection.png": "/static/media/connection.e18d9c6e8539c8aebaf6.png",
+    "static/media/profile.jpeg": "/static/media/profile.19b604a6991eb982bec8.jpeg",
+    "index.html": "/index.html",
+    "main.b66bb00a.css.map": "/static/css/main.b66bb00a.css.map",
+    "main.57e4c766.js.map": "/static/js/main.57e4c766.js.map",
+    "453.d855a71b.chunk.js.map": "/static/js/453.d855a71b.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b66bb00a.css",
+    "static/js/main.57e4c766.js"
+  ]
+}
