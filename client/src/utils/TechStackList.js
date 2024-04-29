@@ -1,7 +1,7 @@
 import { BsFiletypeHtml, BsFiletypeCss, BsBootstrapFill } from "react-icons/bs";
 import { RiJavascriptFill, RiReactjsLine } from "react-icons/ri";
 import { SiTypescript, SiMongodb, SiCsharp, SiExpress } from "react-icons/si";
-import { TbBrandCpp } from "react-icons/tb";
+import { TbBrandRedux } from "react-icons/tb";
 import { IoLogoNodejs } from "react-icons/io5";
 import { GiFeather } from "react-icons/gi";
 import { GrGraphQl } from "react-icons/gr";
@@ -76,8 +76,8 @@ export const TechStackList = [
     },
     {
         _id: 14,
-       name: "CPP",
-       icon:  TbBrandCpp
+       name: "Redux",
+       icon:  TbBrandRedux
     },
     {
         _id: 15,
